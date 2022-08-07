@@ -257,3 +257,16 @@ body {
 .for-info h5 {
     margin-top: 10px;
 }
+
+
+
+.for-header-names{
+    width: 350px;
+    height: 140px;
+    /* background-color: blue; */
+}
+
+.products{
+    font-weight: 600;
+    padding-top: 80px;
+}

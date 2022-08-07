@@ -1,74 +1,17 @@
 import "./style.css"
 import React from 'react';
-import girl from "../../assets/icons/girl.jpg";
-import camera from "../../assets/icons/photo.jpg";
-import shoes from "../../assets/icons/shoes.jpg";
-import shampoo from "../../assets/icons/shampoo.jpg";
-
-const category = [
-     {
-          image: girl,
-          name: "Category Name",
-          productquantity: "100 Products",
-     },
-     {
-          image: camera,
-          name: "Category Name",
-          productquantity: "100 Products",
-     },
-     {
-          image: shoes,
-          name: "Category Name",
-          productquantity: "100 Products",
-     },
-     {
-          image: shampoo,
-          name: "Category Name",
-          productquantity: "100 Products",
-     },
-     {
-          image: shampoo,
-          name: "Category Name",
-          productquantity: "100 Products",
-     },
-     {
-          image: shoes,
-          name: "Category Name",
-          productquantity: "100 Products",
-     },
-     {
-          image: camera,
-          name: "Category Name",
-          productquantity: "100 Products",
-     },
-     {
-          image: girl,
-          name: "Category Name",
-          productquantity: "100 Products",
-     },
-     {
-          image: camera,
-          name: "Category Name",
-          productquantity: "100 Products",
-     },
-     {
-          image: girl,
-          name: "Category Name",
-          productquantity: "100 Products",
-     },
-     {
-          image: shampoo,
-          name: "Category Name",
-          productquantity: "100 Products",
-     },
-     {
-          image: shoes,
-          name: "Category Name",
-          productquantity: "100 Products",
-     },
+import "../Home/component/categories"
+import Category from "../Home/component/categories";
+import "../Home/component/products";
+import Products from "../Home/component/products";
 
 
-];
+
+
+
+
+
+
 
 const Home = () => {
 
@@ -135,28 +78,11 @@ const Home = () => {
                     </div>
                </div>
 
-             <div className="for-header-name">
-                  <h1 className="category">CATEGORIES</h1>
-              </div>
-               <div className="container-blocks">
-                    {category.map((item, index) => (
-                         <div className="boxes-category">
+               
+               <Category />
 
-                              <img style={{ width: '100px', height: "100px", }} src={item.image} alt="" />
+               <Products />
 
-                              <div className="for-info">
-
-                                  <h3>{item.name}</h3> 
-                                   <div>
-                                  <h5> {item.productquantity}</h5>
-                                   </div>
-
-                              </div>
-
-                         </div>
-
-                    ))}
-               </div>
 
 
 
