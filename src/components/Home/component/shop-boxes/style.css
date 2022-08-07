@@ -1,0 +1,25 @@
+
+.global-cont-shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    height: 500px;
+    background-color: yellowgreen;
+}
+.shpecial-box{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    width: 600px;
+    height: 320px;
+    background-color: aquamarine;
+}
+.forfon-image{
+    width: 600px;
+    height: 320px;
+    background-color: rgba(61, 70, 77, 0.5);
+}

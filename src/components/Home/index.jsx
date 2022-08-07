@@ -4,6 +4,7 @@ import "../Home/component/categories"
 import Category from "../Home/component/categories";
 import "../Home/component/products";
 import Products from "../Home/component/products";
+import Shopbox from "./component/shop-boxes";
 
 
 
@@ -82,7 +83,7 @@ const Home = () => {
                <Category />
 
                <Products />
-
+                <Shopbox/>
 
 
 
