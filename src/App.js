@@ -50,6 +50,7 @@ function App() {
 									color: isActive ? '#FFD333' : 'white'
 								})}>
 									<span>Pages</span>
+									
 								</NavLink>
 							</div>
 							<div className="contact-box">
