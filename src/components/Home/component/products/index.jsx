@@ -8,6 +8,10 @@ import dron from "../../../../assets/icons/dron.jpg";
 import applewatch from "../../../../assets/icons/applewatch.jpg";
 import shirts from "../../../../assets/icons/shirts.jpg";
 import shampoos from "../../../../assets/icons/shampoos.jpg";
+import search from "..//..//..//..//assets/icons/search.png"
+import heart from "..//..//..//..//assets/icons/heart.png"
+import storee from "..//..//..//..//assets/icons/storee.png"
+import changee from "..//..//..//..//assets/icons/changee.png"
 
 
 
@@ -15,42 +19,42 @@ const products = [
      {
           image: nikon,
           name: "Product Name Goes Here",
-          price: "123 Products $123.00",
+          price: "$123  $123.00",
      },
      {
           image: blueshirt,
           name: "Product Name Goes Here",
-          price: "123 Products $123.00",
+          price: "$123  $123.00",
      },
      {
           image: lamp,
           name: "Product Name Goes Here",
-          price: "123 Products $123.00",
+          price: "$123  $123.00",
      },
      {
           image: nikeshoes,
           name: "Product Name Goes Here",
-          price: "123 Products $123.00",
+          price: "$123  $123.00",
      },
      {
           image: dron,
           name: "Product Name Goes Here",
-          price: "123 Products $123.00",
+          price: "$123  $123.00",
      },
      {
           image: applewatch,
           name: "Product Name Goes Here",
-          price: "123 Products $123.00",
+          price: "$123  $123.00",
      },
      {
           image: shirts,
           name: "Product Name Goes Here",
-          price: "123 Products $123.00",
+          price: "$123  $123.00",
      },
      {
           image: shampoos,
           name: "Product Name Goes Here",
-          price: "123 Products $123.00",
+          price: "$123  $123.00",
      },
 ]
 
@@ -64,21 +68,27 @@ const products = [
 const Products = () => {
 
      return (
-          <div className="home-cont">
+          <div className="features-cont">
              
 
     
 
-               <div className="for-header-names">
+               <div className="for-header-name">
                   <h1 className="products">FEATURED PRODUCTS</h1>
               </div>
-              <div className="container-blocks">
+              <div className="features-blocks">
                     {products.map((item, index) => (
-                         <div className="">
-
-                              <img style={{ width: '200px', height: "200px", }} src={item.image} alt="" />
-
-                              <div className="for-info">
+                         <div className="boxes-features">
+                            
+                              <img className="features-img" style={{ width: '270px', height: "240px", }} src={item.image} alt="#" />
+                               <div className="for-opacity">
+                                   <img src={search} alt="#" />
+                                   <img src={heart} alt="#" />
+                                   <img src={storee} alt="#" />
+                                   <img src={changee} alt="#" />
+                               </div>
+                              <div className="hover"></div>
+                              <div className="features-info">
 
                                   <h3>{item.name}</h3> 
                                    <div>
@@ -87,8 +97,8 @@ const Products = () => {
 
                               </div>
 
-                         </div>
-
+                       
+                     </div>
                     ))}
                </div>
 
