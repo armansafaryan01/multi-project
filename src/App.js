@@ -51,7 +51,12 @@ function App() {
 								<NavLink to="/pages" style={({ isActive }) => ({
 									color: isActive ? '#FFD333' : 'white'
 								})}>
-									<span>Pages</span>
+									<span>Pages
+										<div className="for-texts">
+											<h4>shopping cart</h4>
+											<h4>checkout</h4>
+										</div>
+									</span>
 									
 								</NavLink>
 							</div>

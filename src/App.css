@@ -62,9 +62,26 @@
 }
 
 .page-box {
+  position: relative;
   margin: 10px;
 }
-
+.for-texts{
+  color: black;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 129px;
+  height: 110px;
+  background-color:#FFD333;
+}
+.for-texts:hover{
+  opacity: 1;
+  height: 100px;
+  top: 20px;
+}
+.for-texts h4{
+  padding-top: 20px;
+}
 .page-box a {
   text-decoration: none;
 }
