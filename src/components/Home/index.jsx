@@ -20,10 +20,9 @@ import "../Home/component/cards";
 
 
 
-
 const Home = () => {
 
-     return (
+     return (          
           <div className="home-cont">
                <div className="g-container">
                     <div className="fashion-cont" style={{ backgroundImage: `url(${require("..//..//assets/icons/menfashion.jpg")})` }}>
@@ -98,6 +97,8 @@ const Home = () => {
                <Cards />
 
           </div>
+       
+         
 
 
      )

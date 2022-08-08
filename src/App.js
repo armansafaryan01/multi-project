@@ -8,6 +8,7 @@ import Shop from "./components/Shop";
 import ShopDetail from "./components/ShopDetail";
 import Pages from "./components/Pages";
 import Contact from "./components/Contact";
+import Footer from "./footer";
 
 
 
@@ -15,7 +16,7 @@ function App() {
 
 	return (
 		<div className="container">
-			<div className="block">
+			<div className="block-g">
 
 
 				<BrowserRouter>
@@ -84,8 +85,10 @@ function App() {
 						<Route exact path="/pages" element={<Pages />} />
 						<Route exact path="/contact" element={<Contact />} />
 					</Routes>
+					<Footer/>
 				</BrowserRouter>
 			</div>
+			
 		</div>
 	);
 }
