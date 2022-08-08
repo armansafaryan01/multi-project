@@ -10,6 +10,7 @@ import Pages from "./components/Pages";
 import Contact from "./components/Contact";
 
 
+
 function App() {
 
 	return (

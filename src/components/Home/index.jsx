@@ -1,10 +1,17 @@
 import "./style.css"
 import React from 'react';
-import "../Home/component/categories"
-import Category from "../Home/component/categories";
-import "../Home/component/products";
+import Category from "..//Home/component/categories";
 import Products from "../Home/component/products";
-import Shopbox from "./component/shop-boxes";
+import Shopbox from "../Home/component/shop-boxes";
+import Cards from "../Home/component/cards";
+import "../Home/component/categories";
+// import Category from "../Home/component/categories";
+import "../Home/component/products";
+// import Products from "../Home/component/products";
+import "../Home/component/shop-boxes";
+// import Shopbox from "./component/shop-boxes";
+// import Cards from "./component/cards";
+import "../Home/component/cards";
 
 
 
@@ -79,16 +86,16 @@ const Home = () => {
                     </div>
                </div>
 
-               
+
                <Category />
 
                <Products />
 
-               <Shopbox/>
+               <Shopbox />
 
-               <Products/>
+               <Products />
 
-
+               <Cards />
 
           </div>
 
