@@ -6,8 +6,8 @@
     align-items: center;
     margin-top: 40px;
     width: 100%;
-    height: 500px;
-    background-color: yellowgreen;
+    /* height: 500px; */
+    /* background-color: yellowgreen; */
 }
 .shpecial-box{
     background-position: center;
@@ -19,7 +19,40 @@
     background-color: aquamarine;
 }
 .forfon-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 600px;
     height: 320px;
     background-color: rgba(61, 70, 77, 0.5);
+}
+.forfon-image:hover{
+    cursor: pointer;
+    transition: all 0.3s;
+    background-color: rgba(43, 43, 43, 0.63);
+}
+.shop-topic{
+    text-align: center;
+    width: 200px;
+    height: 120px;
+    /* background-color: aquamarine; */
+}
+.shop-topic h4{
+    color: white;
+}
+.shop-topic h3{
+    padding-top: 5px;
+    font-size: 24px;
+    color: white;
+}
+.shop-topic button{
+    margin-top: 10px;
+    width: 80px;
+    height: 35px;
+    background-color: #FFD333;
+    border: none;
+}
+.shop-topic button:hover{
+    cursor: pointer;
+    background-color: #fdcb15;
 }

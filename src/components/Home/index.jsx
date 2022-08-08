@@ -83,7 +83,10 @@ const Home = () => {
                <Category />
 
                <Products />
-                <Shopbox/>
+
+               <Shopbox/>
+
+               <Products/>
 
 
 
