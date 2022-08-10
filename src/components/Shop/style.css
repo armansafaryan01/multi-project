@@ -1,12 +1,113 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 .shop-cont{
     margin-top: 30px;
     width: 100%;
-    height: 400px;
-    background-color: red;
+    /* background-color: red; */
+}
+#shop-list{
+    text-decoration: underline;
+}
+.for-sections-link{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #FFFFFF;
+}
+.for-sections-link h4{
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: #3D464D
+}
+.for-sections-link h4:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.for-sections-link span{
+    margin-top: 20px;
+    padding-left: 5px;
+    font-size: 22px;
+}
+.container-information{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    /* height: 800px; */
+    /* background-color: aqua; */
+}
+.checkbox-cont{
+    width: 320px;
+    /* height: 600px; */
+    /* background-color: blueviolet; */
+}
+.checkbox-cont h4{
+    margin-top: 30px;
+    line-height: 1.2;
+    color: #3D464D;
+    text-transform: uppercase;
+    font-size: 1.50rem;
+}
+.for-price{
+    margin-top: 20px;
+    width: 320px;
+    /* height: 300px; */
+    background-color: white;
+}
+.boxes-checkox{
+    margin-top: 5px;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+}
+.for-info-box{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    width: 148px;
+    height: 30px;
+    background-color: white;
+}
+.for-info-box h6{
+    color: #6C757D;
+    padding-left: 10px;
+    font-size: 17px;
+}
+.for-info-box input{
+    accent-color:yellow;
+    width: 26px;
+    height: 18px;
+}
+.for-amount-box{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 5px;
+    width: 120px;
+    height: 30px;
+    background-color:white;
 }
 
-.aaaaaa{
-    width: 200px;
-    height: 200px;
-    background-color: yellow;
+.boxes-checkox span{
+    padding-top: 2px;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    height: 24px;
+    border: 1px solid gray;
+}
+.for-size{
+    margin-top: 20px;
+    width: 320px;
+    /* height: 300px; */
+    background-color: white;
+}
+.container-for-products{
+    width: 900px;
+    /* height: 800px; */
+    background-color: white;
 }
