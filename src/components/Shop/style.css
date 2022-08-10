@@ -9,7 +9,7 @@
     /* background-color: red; */
 }
 #shop-list{
-    text-decoration: underline;
+    text-decoration-line: underline;
 }
 .for-sections-link{
     display: flex;
@@ -18,6 +18,7 @@
     background-color: #FFFFFF;
 }
 .for-sections-link h4{
+    font-weight: 400;
     margin-top: 20px;
     padding-left: 10px;
     font-size: 20px;

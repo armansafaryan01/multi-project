@@ -5,6 +5,7 @@ import love from "./assets/icons/love.png"
 import store from "./assets/icons/store.png"
 import Home from "./components/Home";
 import Shop from "./components/Shop";
+// import ShopDetail from "./components/ShopDetail";
 import ShopDetail from "./components/ShopDetail";
 import Pages from "./components/Pages";
 import Contact from "./components/Contact";
@@ -86,7 +87,7 @@ function App() {
 					<Routes>
 						<Route exact path="/" element={<Home />} />
 						<Route exact path="/shop" element={<Shop />} />
-						<Route exact path="/shop detail" element={<ShopDetail />} />
+						<Route exact path="/shopdetail" element={<ShopDetail />} />
 						<Route exact path="/pages" element={<Pages />} />
 						<Route exact path="/contact" element={<Contact />} />
 					</Routes>
