@@ -1,10 +1,11 @@
-
-
 import React from 'react';
+import "./style.css"
+
+
 const Contact = () => {
     
 return (
-      <div>
+      <div className='contact-cont'>
     
            
       </div>
