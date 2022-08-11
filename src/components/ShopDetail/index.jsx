@@ -1,5 +1,5 @@
 import "./style.css"
-import React from 'react';
+import React, { useState } from 'react';
 import camera from "..//..//assets/icons/nikon.jpg";
 import search from "..//..//assets/icons/search.png"
 import heart from "..//..//assets/icons/heart.png"
@@ -62,6 +62,17 @@ const products = [
 
 
 const ShopDetail = () => {
+    const[get,set]=useState(1)
+
+ const foo =()=>{
+   set(get+1)
+ }
+ 
+ const foo1 =()=>{
+   if(get!==0){
+    set(get-1)
+   }
+}
 
   return (
     <div className="detail-cont">
@@ -77,16 +88,20 @@ const ShopDetail = () => {
       </div>
       <div className="cont-box-info">
         <h2>Product Name Goes Here</h2>
-        <h4>$150.00</h4>
+        <h4>{get!==0?get*150:150.00}</h4>
         <p>Volup erat ipsum diam elitr rebum et dolor.
           Est nonumy elitr erat diam stet sit clita ea. <br /> Sanc ipsum et, labore clita lorem magna duo dolor no sea Nonumy</p>
+          <button onClick={foo1}>-</button>
+          <span className="value">{get}</span>
+          <button onClick={foo}>+</button>
+
       </div>
       <div className="for-description">
 
         <div className="box-reviews">
           <button>Description</button>
           <button>Information</button>
-          <button>Reviews (0)</button>
+          <button >Reviews (0)</button>
         </div>
         <h2>Product Description</h2>
         <h5>Eos no lorem eirmod diam diam, eos elitr et gubergren diam sea. Consetetur vero aliquyam invidunt duo dolores et duo sit. Vero diam ea vero et dolore rebum, dolor rebum eirmod consetetur invidunt sed sed et, lorem duo et eos elitr, sadipscing kasd ipsum rebum diam. Dolore diam stet rebum sed tempor kasd eirmod. Takimata kasd ipsum accusam sadipscing, eos dolores sit no ut diam consetetur duo justo est, sit sanctus diam tempor aliquyam eirmod nonumy rebum dolor accusam, ipsum kasd eos consetetur at sit

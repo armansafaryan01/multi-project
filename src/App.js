@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css"
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import love from "./assets/icons/love.png"
@@ -14,6 +14,15 @@ import Footer from "./footer";
 
 
 function App() {
+
+
+const[get,set]=useState({
+	love:0,
+	store:0,
+
+})
+
+
 
 	return (
 		<div className="container">
@@ -74,11 +83,11 @@ function App() {
 					<div className="bar-cont">
 						<div className="for-love">
 							<img src={love} alt="#"  />
-							<span>0</span>
+							<span>{get.love}</span>
 						</div>
 						<div className="for-shop">
 							<img src={store} alt="#"  />
-							<span>0</span>
+							<span>{get.store}</span>
 
 						</div>
 					</div>
