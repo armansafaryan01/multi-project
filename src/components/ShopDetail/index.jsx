@@ -88,7 +88,7 @@ const ShopDetail = () => {
       </div>
       <div className="cont-box-info">
         <h2>Product Name Goes Here</h2>
-        <h4>{get!==0?get*150:150.00}</h4>
+        <h4>$150.00</h4>
         <p>Volup erat ipsum diam elitr rebum et dolor.
           Est nonumy elitr erat diam stet sit clita ea. <br /> Sanc ipsum et, labore clita lorem magna duo dolor no sea Nonumy</p>
           <button onClick={foo1}>-</button>
