@@ -8,6 +8,13 @@ import changee from "..//..//assets/icons/changee.png"
 import nikeshoes from "..//..//assets/icons/nikeshoes.jpg"
 import lamp from "..//..//assets/icons/night lamp.jpg"
 import blueshirt from "..//..//assets/icons/blueshirt.jpg"
+import insta from "..//..//assets/icons/inst.svg"
+import facebook from "..//..//assets/icons/face.svg"
+import linkedin from "..//..//assets/icons/edin.svg"
+import twit from "..//..//assets/icons/twit.svg"
+
+
+
 // import Products from "..//Home/component/products"
 
 
@@ -62,17 +69,17 @@ const products = [
 
 
 const ShopDetail = () => {
-    const[get,set]=useState(1)
+  const [get, set] = useState(1)
 
- const foo =()=>{
-   set(get+1)
- }
- 
- const foo1 =()=>{
-   if(get!==0){
-    set(get-1)
-   }
-}
+  const foo = () => {
+    set(get + 1)
+  }
+
+  const foo1 = () => {
+    if (get !== 0) {
+      set(get - 1)
+    }
+  }
 
   return (
     <div className="detail-cont">
@@ -91,9 +98,22 @@ const ShopDetail = () => {
         <h4>$150.00</h4>
         <p>Volup erat ipsum diam elitr rebum et dolor.
           Est nonumy elitr erat diam stet sit clita ea. <br /> Sanc ipsum et, labore clita lorem magna duo dolor no sea Nonumy</p>
+
+        <div className="for-payments">
           <button onClick={foo1}>-</button>
-          <span className="value">{get}</span>
+          <button id="value">{get}</button>
           <button onClick={foo}>+</button>
+          <button  id="payment">Ad To Cart</button>
+        </div>
+        <div className="icons-payment">
+          <h5 className="icon-text">Share on:</h5>
+          <img src={insta} alt="#" />
+          <img src={facebook} alt="#" />
+          <img src={linkedin} alt="#" />
+          <img src={twit} alt="#" />
+
+        </div>
+
 
       </div>
       <div className="for-description">

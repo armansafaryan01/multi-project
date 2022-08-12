@@ -32,7 +32,7 @@
    margin-top: 20px;
    width: 720px;
    height: 420px;
-   background-color: green;
+   background-color: white;
 }
 
 .cont-box-info h2 {
@@ -42,18 +42,60 @@
    color: #3C454C;
 }
 .cont-box-info button{
-   width: 120px;
+   cursor: pointer;
+   margin-left: 20px;
+   margin-top: 30px;
+   font-size: 24px;
+   background-color: #f7c615;
+   width: 40px;
+   height: 40px;
+   border: none;
+}
+#value{
+
+   background-color: #F4F4F4;
+   /* border: 2px solid red; */
+   width: 40px;
    height: 30px;
-}
-.value{
-   background-color: whitesmoke;
-   border: 2px solid red;
-   padding-right: 30px;
-   padding-left: 30px;
-   font-size: 25px;
+   /* padding-right: 30px; */
+   /* padding-left: 30px; */
+   font-size: 22px;
 
 }
-
+#payment{
+   margin-left: 80px;
+   font-weight: 500;
+   font-size: 16px;
+   width: 135px;
+   height: 35px;
+}
+.icons-payment{
+   margin-top: 30px;
+   align-items: center;
+   display: flex;
+   width: 100%;
+   height: 40px;
+   /* background-color: red; */
+}
+.icon-text{
+   margin-left: 22px;
+   font-size: 18px;
+}
+.icons-payment img{
+   cursor: pointer;
+   margin-left: 10px;
+   width: 22px;
+   height: 22px;
+}
+.icons-payment img:hover{
+   background-color: #f7c615;
+}
+.for-payments{
+   margin-top: 30px;
+   width: 100%;
+   height: 100px;
+   /* background-color: red; */
+}
 .cont-box-info h4 {
    padding-left: 20px;
    padding-top: 20px;
