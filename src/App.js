@@ -10,6 +10,8 @@ import ShopDetail from "./components/ShopDetail";
 import Pages from "./components/Pages";
 import Contact from "./components/Contact";
 import Footer from "./footer";
+import Shopcart from "./components/shoping-cart";
+import Checkout from "./components/checkout-main";
 
 
 
@@ -58,17 +60,27 @@ const[get,set]=useState({
 								</NavLink>
 							</div>
 							<div className="page-box">
-								<NavLink to="/pages" style={({ isActive }) => ({
-									color: isActive ? '#FFD333' : 'white'
+								<NavLink to="" style={({ isActive }) => ({
+									color: isActive ? 'white' : 'white'
 								})}>
 									<span>Pages
 										<div className="for-texts">
-											<h4>shopping cart</h4>
-											<h4>checkout</h4>
+											<NavLink to="/shopcart">
+												<h4>Shopping Cart</h4>
+											</NavLink>
+											<NavLink to="/checkout">
+													<h4>Checkout</h4>
+											</NavLink>
+											
+										
 										</div>
 									</span>
 									
 								</NavLink>
+
+
+
+
 							</div>
 							<div className="contact-box">
 								<NavLink to="/contact" style={({ isActive }) => ({
@@ -99,6 +111,8 @@ const[get,set]=useState({
 						<Route exact path="/shopdetail" element={<ShopDetail />} />
 						<Route exact path="/pages" element={<Pages />} />
 						<Route exact path="/contact" element={<Contact />} />
+						<Route exact path="/shopcart" element={<Shopcart/>}/>
+						<Route exact path="/checkout" element={<Checkout/>}/>
 					</Routes>
 					<Footer/>
 				</BrowserRouter>

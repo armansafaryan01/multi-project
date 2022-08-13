@@ -17,7 +17,7 @@
    margin-top: 20px;
    width: 500px;
    height: 420px;
-   background-color: yellow;
+   /* background-color: yellow; */
 }
 
 .cont-for-boximg img {
@@ -134,9 +134,7 @@
     color: #6C757D;
    padding: 15px 17px 0 20px;
 }
-/* #info-padding{
-   padding-top: 20px;
-} */
+
 .box-reviews {
    width: 100%;
    height: 80px;

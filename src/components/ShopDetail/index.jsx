@@ -41,28 +41,9 @@ const products = [
     name: "Product Name Goes Here",
     price: "$123  $123.00",
   },
-  // {
-  //      image: dron,
-  //      name: "Product Name Goes Here",
-  //      price: "$123  $123.00",
-  // },
-  // {
-  //      image: applewatch,
-  //      name: "Product Name Goes Here",
-  //      price: "$123  $123.00",
-  // },
+
 
 ]
-
-
-
-
-
-
-
-
-
-
 
 
 
