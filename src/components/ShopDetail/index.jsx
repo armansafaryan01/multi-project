@@ -13,13 +13,6 @@ import facebook from "..//..//assets/icons/face.svg"
 import linkedin from "..//..//assets/icons/edin.svg"
 import twit from "..//..//assets/icons/twit.svg"
 
-
-
-// import Products from "..//Home/component/products"
-
-
-
-
 const products = [
   {
     image: camera,
@@ -44,9 +37,6 @@ const products = [
 
 
 ]
-
-
-
 
 
 const ShopDetail = () => {
@@ -84,7 +74,7 @@ const ShopDetail = () => {
           <button onClick={foo1}>-</button>
           <button id="value">{get}</button>
           <button onClick={foo}>+</button>
-          <button  id="payment">Ad To Cart</button>
+          <button id="payment">Ad To Cart</button>
         </div>
         <div className="icons-payment">
           <h5 className="icon-text">Share on:</h5>
