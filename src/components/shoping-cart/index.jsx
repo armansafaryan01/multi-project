@@ -20,7 +20,7 @@ const Shopcart = () => {
     }
   }
 
-  
+
   return (
     <div className='contact-cont'>
       <div className="for-sections-link">
@@ -150,10 +150,37 @@ const Shopcart = () => {
             </div>
           </div>
 
-
-
         </div>
-        <div className='box-checkout'></div>
+        {/* ==================================================== */}
+        <div className='box-checkout'>
+          <div className='box-cupon-input'>
+            <label>
+              <input type="text" placeholder='Coupon Code' />
+              <button>Apply Coupon</button>
+            </label>
+          </div>
+          <h2>CART SUMMARY------------------------------</h2>
+          <div className='cont-checkout'>
+            <div className='box-topic-checkout'>
+
+              <div className='Subtotal-box'>
+                <h4>Subtotal</h4>
+                <p>$150</p>
+              </div>
+              <div className='Subtotal-box'>
+                <h4>Shipping</h4>
+                <p>$10</p>
+              </div>
+              -------------------------------------------------------------
+              <div className='Subtotal-box'>
+                <h4>Total</h4>
+                <p>$160</p>
+              </div>
+              <button>Processed To Checkout</button>
+
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
