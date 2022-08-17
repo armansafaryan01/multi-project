@@ -5,7 +5,6 @@ import love from "./assets/icons/love.png"
 import store from "./assets/icons/store.png"
 import Home from "./components/Home";
 import Shop from "./components/Shop";
-// import ShopDetail from "./components/ShopDetail";
 import ShopDetail from "./components/ShopDetail";
 import Pages from "./components/Pages";
 import Contact from "./components/Contact";
